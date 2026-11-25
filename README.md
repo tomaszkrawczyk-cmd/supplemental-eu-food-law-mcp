@@ -16,6 +16,26 @@ This repository contains documentation only; the server is hosted by supplementa
 | Transport | Streamable HTTP |
 | Authentication | None |
 
+## Gemini CLI
+
+Install the extension from this repository:
+
+```bash
+gemini extensions install https://github.com/tomaszkrawczyk-cmd/supplemental-eu-food-law-mcp
+```
+
+Gemini CLI uses `httpUrl` for Streamable HTTP (`url` is reserved for legacy SSE):
+
+```json
+{
+  "mcpServers": {
+    "supplemental-eu-food-law": {
+      "httpUrl": "https://mcp.supplemental.pl/mcp"
+    }
+  }
+}
+```
+
 ## Configuration
 
 ```json

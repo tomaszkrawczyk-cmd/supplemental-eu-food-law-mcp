@@ -1,0 +1,18 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "supplemental-eu-food-law",
+  "displayName": "Supplemental EU Food Law",
+  "version": "1.0.0",
+  "description": "Read-only EU and Polish food-law tools for supplement firms: health claims, novel food, GIS notification and nutrition. Not legal advice.",
+  "logo": "assets/logo.png",
+  "suggestedPrompts": [
+    "Search supplemental.pl for EU novel food rules that apply to food supplements",
+    "Check whether a vitamin D health claim is authorised in the EU Register",
+    "What are the Polish GIS notification steps for a food supplement?",
+    "Use Supplemental EU Food Law to look up the Novel Food Catalogue status of an ingredient"
+  ],
+  "author": {
+    "name": "Tomasz Krawczyk, Supplemental.pl",
+    "url": "https://supplemental.pl"
+  }
+}

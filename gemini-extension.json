@@ -1,0 +1,11 @@
+{
+  "name": "supplemental-eu-food-law",
+  "version": "1.0.0",
+  "description": "EU/PL food law for supplement firms: health claims, novel food, GIS, C.L.A.I.M.S. Not legal advice.",
+  "mcpServers": {
+    "supplemental-eu-food-law": {
+      "httpUrl": "https://mcp.supplemental.pl/mcp"
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}
